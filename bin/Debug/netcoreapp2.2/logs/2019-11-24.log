@@ -1,0 +1,212 @@
+[2019-11-24 23:12:14.9034][DELL-PC][Info] Request starting HTTP/1.1 GET http://localhost:44333/api/customers   
+[2019-11-24 23:12:14.9034][DELL-PC][Info] Request starting HTTP/1.1 DEBUG http://localhost:60688/  0 
+[2019-11-24 23:12:15.2153][DELL-PC][Info] No cached response available for this request. 
+[2019-11-24 23:12:15.2153][DELL-PC][Info] Request finished in 339.2975ms 200  
+[2019-11-24 23:12:15.3074][DELL-PC][Info] Executing endpoint 'alintaApi.Controllers.CustomersController.GetAll (alintaApi)' 
+[2019-11-24 23:12:15.3367][DELL-PC][Info] Route matched with {action = "GetAll", controller = "Customers"}. Executing controller action with signature System.Linq.IQueryable`1[alintaApi.Models.Customer] GetAll() on controller alintaApi.Controllers.CustomersController (alintaApi). 
+[2019-11-24 23:12:15.3582][DELL-PC][Info] Executing action method alintaApi.Controllers.CustomersController.GetAll (alintaApi) - Validation state: Valid 
+[2019-11-24 23:12:22.0934][DELL-PC][Error]  for testing logs 
+[2019-11-24 23:12:25.3441][DELL-PC][Info] Executed action alintaApi.Controllers.CustomersController.GetAll (alintaApi) in 9996.3995ms 
+[2019-11-24 23:12:25.3477][DELL-PC][Info] Executed endpoint 'alintaApi.Controllers.CustomersController.GetAll (alintaApi)' 
+[2019-11-24 23:12:25.4017][DELL-PC][Error] An unhandled exception has occurred while executing the request.  for testing logs
+[2019-11-24 23:12:25.5359][DELL-PC][Info] Request finished in 10641.3974ms 500 text/html; charset=utf-8 
+[2019-11-24 23:39:56.3226][DELL-PC][Info] Entity Framework Core 2.2.6-servicing-10079 initialized 'CustomersDbContext' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=CustomersDB  
+[2019-11-24 23:39:56.6243][DELL-PC][Info] Saved 4 entities to in-memory store. 
+[2019-11-24 23:39:56.9593][DELL-PC][Info] Request starting HTTP/1.1 DEBUG http://localhost:60688/  0 
+[2019-11-24 23:39:56.9593][DELL-PC][Info] Request starting HTTP/1.1 GET http://localhost:44333/api/customers   
+[2019-11-24 23:39:56.9920][DELL-PC][Info] Request finished in 30.495ms 200  
+[2019-11-24 23:39:56.9920][DELL-PC][Info] No cached response available for this request. 
+[2019-11-24 23:39:57.0487][DELL-PC][Info] Executing endpoint 'alintaApi.Controllers.CustomersController.GetAll (alintaApi)' 
+[2019-11-24 23:39:57.0750][DELL-PC][Info] Route matched with {action = "GetAll", controller = "Customers"}. Executing controller action with signature System.Linq.IQueryable`1[alintaApi.Models.Customer] GetAll() on controller alintaApi.Controllers.CustomersController (alintaApi). 
+[2019-11-24 23:39:57.0916][DELL-PC][Info] Executing action method alintaApi.Controllers.CustomersController.GetAll (alintaApi) - Validation state: Valid 
+[2019-11-24 23:40:01.0092][DELL-PC][Info] Executed action method alintaApi.Controllers.CustomersController.GetAll (alintaApi), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 3911.7393ms. 
+[2019-11-24 23:40:01.0217][DELL-PC][Info] Executing ObjectResult, writing value of type 'Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1[[alintaApi.Models.Customer, alintaApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'. 
+[2019-11-24 23:40:01.1408][DELL-PC][Info] Entity Framework Core 2.2.6-servicing-10079 initialized 'CustomersDbContext' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=CustomersDB  
+[2019-11-24 23:40:01.2251][DELL-PC][Info] Executed action alintaApi.Controllers.CustomersController.GetAll (alintaApi) in 4144.5654ms 
+[2019-11-24 23:40:01.2251][DELL-PC][Info] Executed endpoint 'alintaApi.Controllers.CustomersController.GetAll (alintaApi)' 
+[2019-11-24 23:40:01.2251][DELL-PC][Info] The response could not be cached for this request. 
+[2019-11-24 23:40:01.2447][DELL-PC][Info] Request finished in 4286.4435ms 200 application/json; charset=utf-8 
+[2019-11-24 23:40:20.2560][DELL-PC][Info] Request starting HTTP/1.1 GET http://localhost:44333/   
+[2019-11-24 23:40:20.3062][DELL-PC][Info] No cached response available for this request. 
+[2019-11-24 23:40:20.3734][DELL-PC][Info] The response could not be cached for this request. 
+[2019-11-24 23:40:20.4138][DELL-PC][Info] Request finished in 154.6909ms 404  
+[2019-11-24 23:41:04.3547][DELL-PC][Info] Request starting HTTP/1.1 GET http://localhost:44333/swagger   
+[2019-11-24 23:41:04.4437][DELL-PC][Info] No cached response available for this request. 
+[2019-11-24 23:41:04.4437][DELL-PC][Info] The response could not be cached for this request. 
+[2019-11-24 23:41:04.4849][DELL-PC][Info] Request finished in 130.2183ms 301  
+[2019-11-24 23:41:04.4907][DELL-PC][Info] Request starting HTTP/1.1 GET http://localhost:44333/swagger/index.html   
+[2019-11-24 23:41:04.5228][DELL-PC][Info] No cached response available for this request. 
+[2019-11-24 23:41:04.6011][DELL-PC][Info] The response could not be cached for this request. 
+[2019-11-24 23:41:04.6011][DELL-PC][Info] Request finished in 111.5927ms 200 text/html 
+[2019-11-24 23:41:04.6666][DELL-PC][Info] Request starting HTTP/1.1 GET http://localhost:44333/swagger/swagger-ui.css   
+[2019-11-24 23:41:04.6666][DELL-PC][Info] Request starting HTTP/1.1 GET http://localhost:44333/swagger/swagger-ui-bundle.js   
+[2019-11-24 23:41:04.6666][DELL-PC][Info] No cached response available for this request. 
+[2019-11-24 23:41:04.6666][DELL-PC][Info] Request starting HTTP/1.1 GET http://localhost:44333/swagger/swagger-ui-standalone-preset.js   
+[2019-11-24 23:41:04.6777][DELL-PC][Info] No cached response available for this request. 
+[2019-11-24 23:41:04.6666][DELL-PC][Info] No cached response available for this request. 
+[2019-11-24 23:41:04.7803][DELL-PC][Info] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A' 
+[2019-11-24 23:41:04.7803][DELL-PC][Info] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A' 
+[2019-11-24 23:41:04.7857][DELL-PC][Info] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A' 
+[2019-11-24 23:41:04.7857][DELL-PC][Info] The response could not be cached for this request. 
+[2019-11-24 23:41:04.7857][DELL-PC][Info] The response could not be cached for this request. 
+[2019-11-24 23:41:04.7857][DELL-PC][Info] The response could not be cached for this request. 
+[2019-11-24 23:41:04.8066][DELL-PC][Info] Request finished in 131.8859ms 200 application/javascript 
+[2019-11-24 23:41:04.8066][DELL-PC][Info] Request finished in 134.9259ms 200 application/javascript 
+[2019-11-24 23:41:04.8066][DELL-PC][Info] Request finished in 140.0112ms 200 text/css 
+[2019-11-24 23:41:05.4496][DELL-PC][Info] Request starting HTTP/1.1 GET http://localhost:44333/swagger/v1/swagger.json   
+[2019-11-24 23:41:05.4496][DELL-PC][Info] No cached response available for this request. 
+[2019-11-24 23:41:05.8037][DELL-PC][Info] The response could not be cached for this request. 
+[2019-11-24 23:41:05.8037][DELL-PC][Info] Request finished in 356.389ms 200 application/json;charset=utf-8 
+[2019-11-24 23:41:17.4147][DELL-PC][Info] Request starting HTTP/1.1 GET http://localhost:44333/api/Customers   
+[2019-11-24 23:41:17.4147][DELL-PC][Info] No cached response available for this request. 
+[2019-11-24 23:41:17.4267][DELL-PC][Info] Executing endpoint 'alintaApi.Controllers.CustomersController.GetAll (alintaApi)' 
+[2019-11-24 23:41:17.4267][DELL-PC][Info] Route matched with {action = "GetAll", controller = "Customers"}. Executing controller action with signature System.Linq.IQueryable`1[alintaApi.Models.Customer] GetAll() on controller alintaApi.Controllers.CustomersController (alintaApi). 
+[2019-11-24 23:41:17.4567][DELL-PC][Info] Executing action method alintaApi.Controllers.CustomersController.GetAll (alintaApi) - Validation state: Valid 
+[2019-11-24 23:41:20.0277][DELL-PC][Info] Executed action method alintaApi.Controllers.CustomersController.GetAll (alintaApi), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 2569.9653ms. 
+[2019-11-24 23:41:20.0277][DELL-PC][Info] Executing ObjectResult, writing value of type 'Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1[[alintaApi.Models.Customer, alintaApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'. 
+[2019-11-24 23:41:20.0366][DELL-PC][Info] Entity Framework Core 2.2.6-servicing-10079 initialized 'CustomersDbContext' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=CustomersDB  
+[2019-11-24 23:41:20.1081][DELL-PC][Info] Executed action alintaApi.Controllers.CustomersController.GetAll (alintaApi) in 2652.395ms 
+[2019-11-24 23:41:20.1081][DELL-PC][Info] Executed endpoint 'alintaApi.Controllers.CustomersController.GetAll (alintaApi)' 
+[2019-11-24 23:41:20.1081][DELL-PC][Info] The response could not be cached for this request. 
+[2019-11-24 23:41:20.1081][DELL-PC][Info] Request finished in 2697.0451ms 200 application/json; charset=utf-8 
+[2019-11-24 23:44:16.0625][DELL-PC][Info] Entity Framework Core 2.2.6-servicing-10079 initialized 'CustomersDbContext' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=CustomersDB  
+[2019-11-24 23:44:22.3532][DELL-PC][Info] Saved 4 entities to in-memory store. 
+[2019-11-24 23:44:24.8699][DELL-PC][Info] Request starting HTTP/1.1 GET http://localhost:44333/api/customers   
+[2019-11-24 23:44:24.8699][DELL-PC][Info] Request starting HTTP/1.1 DEBUG http://localhost:60688/  0 
+[2019-11-24 23:44:24.9129][DELL-PC][Info] No cached response available for this request. 
+[2019-11-24 23:44:25.0777][DELL-PC][Info] Request finished in 209.1384ms 200  
+[2019-11-24 23:44:25.1330][DELL-PC][Info] Executing endpoint 'alintaApi.Controllers.CustomersController.GetAll (alintaApi)' 
+[2019-11-24 23:44:25.1639][DELL-PC][Info] Route matched with {action = "GetAll", controller = "Customers"}. Executing controller action with signature System.Linq.IQueryable`1[alintaApi.Models.Customer] GetAll() on controller alintaApi.Controllers.CustomersController (alintaApi). 
+[2019-11-24 23:44:25.1795][DELL-PC][Info] Executing action method alintaApi.Controllers.CustomersController.GetAll (alintaApi) - Validation state: Valid 
+[2019-11-24 23:44:28.0264][DELL-PC][Info] Executed action method alintaApi.Controllers.CustomersController.GetAll (alintaApi), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 2840.7304ms. 
+[2019-11-24 23:44:28.0395][DELL-PC][Info] Executing ObjectResult, writing value of type 'Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1[[alintaApi.Models.Customer, alintaApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'. 
+[2019-11-24 23:44:28.1680][DELL-PC][Info] Entity Framework Core 2.2.6-servicing-10079 initialized 'CustomersDbContext' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=CustomersDB  
+[2019-11-24 23:44:28.2402][DELL-PC][Info] Executed action alintaApi.Controllers.CustomersController.GetAll (alintaApi) in 3070.2351ms 
+[2019-11-24 23:44:28.2402][DELL-PC][Info] Executed endpoint 'alintaApi.Controllers.CustomersController.GetAll (alintaApi)' 
+[2019-11-24 23:44:28.2402][DELL-PC][Info] The response could not be cached for this request. 
+[2019-11-24 23:44:28.2582][DELL-PC][Info] Request finished in 3390.2463ms 200 application/json; charset=utf-8 
+[2019-11-24 23:44:43.4905][DELL-PC][Info] Request starting HTTP/1.1 GET http://localhost:44333/swagger/index.html   
+[2019-11-24 23:44:43.5627][DELL-PC][Info] No cached response available for this request. 
+[2019-11-24 23:44:43.7234][DELL-PC][Info] The response could not be cached for this request. 
+[2019-11-24 23:44:43.7234][DELL-PC][Info] Request finished in 234.6287ms 200 text/html 
+[2019-11-24 23:44:44.6379][DELL-PC][Info] Request starting HTTP/1.1 GET http://localhost:44333/swagger/v1/swagger.json   
+[2019-11-24 23:44:44.6379][DELL-PC][Info] No cached response available for this request. 
+[2019-11-24 23:44:44.9155][DELL-PC][Info] The response could not be cached for this request. 
+[2019-11-24 23:44:44.9155][DELL-PC][Info] Request finished in 280.1013ms 200 application/json;charset=utf-8 
+[2019-11-24 23:44:54.6482][DELL-PC][Info] Request starting HTTP/1.1 GET http://localhost:44333/api/Customers   
+[2019-11-24 23:44:54.6482][DELL-PC][Info] No cached response available for this request. 
+[2019-11-24 23:44:54.6482][DELL-PC][Info] Executing endpoint 'alintaApi.Controllers.CustomersController.GetAll (alintaApi)' 
+[2019-11-24 23:44:54.6482][DELL-PC][Info] Route matched with {action = "GetAll", controller = "Customers"}. Executing controller action with signature System.Linq.IQueryable`1[alintaApi.Models.Customer] GetAll() on controller alintaApi.Controllers.CustomersController (alintaApi). 
+[2019-11-24 23:44:54.6482][DELL-PC][Info] Executing action method alintaApi.Controllers.CustomersController.GetAll (alintaApi) - Validation state: Valid 
+[2019-11-24 23:44:56.9798][DELL-PC][Info] Executed action method alintaApi.Controllers.CustomersController.GetAll (alintaApi), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 2219.0025ms. 
+[2019-11-24 23:44:56.9798][DELL-PC][Info] Executing ObjectResult, writing value of type 'Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1[[alintaApi.Models.Customer, alintaApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'. 
+[2019-11-24 23:44:56.9798][DELL-PC][Info] Entity Framework Core 2.2.6-servicing-10079 initialized 'CustomersDbContext' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=CustomersDB  
+[2019-11-24 23:44:56.9798][DELL-PC][Info] Executed action alintaApi.Controllers.CustomersController.GetAll (alintaApi) in 2333.3339ms 
+[2019-11-24 23:44:56.9798][DELL-PC][Info] Executed endpoint 'alintaApi.Controllers.CustomersController.GetAll (alintaApi)' 
+[2019-11-24 23:44:56.9798][DELL-PC][Info] The response could not be cached for this request. 
+[2019-11-24 23:44:56.9885][DELL-PC][Info] Request finished in 2340.2216ms 200 application/json; charset=utf-8 
+[2019-11-24 23:45:51.2272][DELL-PC][Info] Request starting HTTP/1.1 POST http://localhost:44333/api/Customers application/json-patch+json 107 
+[2019-11-24 23:45:51.2564][DELL-PC][Info] Executing endpoint 'alintaApi.Controllers.CustomersController.Post (alintaApi)' 
+[2019-11-24 23:45:51.3305][DELL-PC][Info] Route matched with {action = "Post", controller = "Customers"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Post(alintaApi.Models.Customer) on controller alintaApi.Controllers.CustomersController (alintaApi). 
+[2019-11-24 23:45:51.4351][DELL-PC][Info] Executing action method alintaApi.Controllers.CustomersController.Post (alintaApi) - Validation state: Valid 
+[2019-11-24 23:45:51.4351][DELL-PC][Info] Entity Framework Core 2.2.6-servicing-10079 initialized 'CustomersDbContext' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=CustomersDB  
+[2019-11-24 23:45:51.4432][DELL-PC][Info] Saved 1 entities to in-memory store. 
+[2019-11-24 23:45:51.4432][DELL-PC][Info] Executed action method alintaApi.Controllers.CustomersController.Post (alintaApi), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 8.3473ms. 
+[2019-11-24 23:45:51.4432][DELL-PC][Info] Executing ObjectResult, writing value of type 'alintaApi.Models.Customer'. 
+[2019-11-24 23:45:51.4432][DELL-PC][Info] Executed action alintaApi.Controllers.CustomersController.Post (alintaApi) in 85.5447ms 
+[2019-11-24 23:45:51.4432][DELL-PC][Info] Executed endpoint 'alintaApi.Controllers.CustomersController.Post (alintaApi)' 
+[2019-11-24 23:45:51.4432][DELL-PC][Info] Request finished in 219.5823ms 200 application/json; charset=utf-8 
+[2019-11-24 23:46:08.3538][DELL-PC][Info] Request starting HTTP/1.1 GET http://localhost:44333/api/Customers/6   
+[2019-11-24 23:46:08.3538][DELL-PC][Info] No cached response available for this request. 
+[2019-11-24 23:46:08.3663][DELL-PC][Info] Executing endpoint 'alintaApi.Controllers.CustomersController.Get (alintaApi)' 
+[2019-11-24 23:46:08.4131][DELL-PC][Info] Route matched with {action = "Get", controller = "Customers"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Get(Int32) on controller alintaApi.Controllers.CustomersController (alintaApi). 
+[2019-11-24 23:46:08.4612][DELL-PC][Info] Executing action method alintaApi.Controllers.CustomersController.Get (alintaApi) - Validation state: Valid 
+[2019-11-24 23:46:08.4612][DELL-PC][Info] Entity Framework Core 2.2.6-servicing-10079 initialized 'CustomersDbContext' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=CustomersDB  
+[2019-11-24 23:46:08.5292][DELL-PC][Info] Executed action method alintaApi.Controllers.CustomersController.Get (alintaApi), returned result Microsoft.AspNetCore.Mvc.NotFoundObjectResult in 67.1772ms. 
+[2019-11-24 23:46:08.5292][DELL-PC][Info] Executing ObjectResult, writing value of type 'System.String'. 
+[2019-11-24 23:46:08.5292][DELL-PC][Info] Executed action alintaApi.Controllers.CustomersController.Get (alintaApi) in 74.842ms 
+[2019-11-24 23:46:08.5292][DELL-PC][Info] Executed endpoint 'alintaApi.Controllers.CustomersController.Get (alintaApi)' 
+[2019-11-24 23:46:08.5292][DELL-PC][Info] The response could not be cached for this request. 
+[2019-11-24 23:46:08.5292][DELL-PC][Info] Request finished in 178.2129ms 404 application/json; charset=utf-8 
+[2019-11-24 23:46:28.4785][DELL-PC][Info] Request starting HTTP/1.1 GET http://localhost:44333/api/Customers/60   
+[2019-11-24 23:46:28.4785][DELL-PC][Info] No cached response available for this request. 
+[2019-11-24 23:46:28.4903][DELL-PC][Info] Executing endpoint 'alintaApi.Controllers.CustomersController.Get (alintaApi)' 
+[2019-11-24 23:46:28.5723][DELL-PC][Info] Route matched with {action = "Get", controller = "Customers"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Get(Int32) on controller alintaApi.Controllers.CustomersController (alintaApi). 
+[2019-11-24 23:46:28.6346][DELL-PC][Info] Executing action method alintaApi.Controllers.CustomersController.Get (alintaApi) - Validation state: Valid 
+[2019-11-24 23:46:28.6346][DELL-PC][Info] Entity Framework Core 2.2.6-servicing-10079 initialized 'CustomersDbContext' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=CustomersDB  
+[2019-11-24 23:46:28.6487][DELL-PC][Info] Executed action method alintaApi.Controllers.CustomersController.Get (alintaApi), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 12.3781ms. 
+[2019-11-24 23:46:28.6487][DELL-PC][Info] Executing ObjectResult, writing value of type 'alintaApi.Models.Customer'. 
+[2019-11-24 23:46:28.6487][DELL-PC][Info] Executed action alintaApi.Controllers.CustomersController.Get (alintaApi) in 16.41ms 
+[2019-11-24 23:46:28.6487][DELL-PC][Info] Executed endpoint 'alintaApi.Controllers.CustomersController.Get (alintaApi)' 
+[2019-11-24 23:46:28.6487][DELL-PC][Info] The response could not be cached for this request. 
+[2019-11-24 23:46:28.6487][DELL-PC][Info] Request finished in 178.3458ms 200 application/json; charset=utf-8 
+[2019-11-24 23:47:33.1443][DELL-PC][Info] Request starting HTTP/1.1 GET http://localhost:44333/api/Customers/60   
+[2019-11-24 23:47:33.1663][DELL-PC][Info] No cached response available for this request. 
+[2019-11-24 23:47:33.2095][DELL-PC][Info] Executing endpoint 'alintaApi.Controllers.CustomersController.Get (alintaApi)' 
+[2019-11-24 23:47:33.2095][DELL-PC][Info] Route matched with {action = "Get", controller = "Customers"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Get(Int32) on controller alintaApi.Controllers.CustomersController (alintaApi). 
+[2019-11-24 23:47:33.2095][DELL-PC][Info] Executing action method alintaApi.Controllers.CustomersController.Get (alintaApi) - Validation state: Valid 
+[2019-11-24 23:47:33.2421][DELL-PC][Info] Entity Framework Core 2.2.6-servicing-10079 initialized 'CustomersDbContext' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=CustomersDB  
+[2019-11-24 23:47:33.2421][DELL-PC][Info] Executed action method alintaApi.Controllers.CustomersController.Get (alintaApi), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 3.0825ms. 
+[2019-11-24 23:47:33.2421][DELL-PC][Info] Executing ObjectResult, writing value of type 'alintaApi.Models.Customer'. 
+[2019-11-24 23:47:33.2421][DELL-PC][Info] Executed action alintaApi.Controllers.CustomersController.Get (alintaApi) in 33.6299ms 
+[2019-11-24 23:47:33.2421][DELL-PC][Info] Executed endpoint 'alintaApi.Controllers.CustomersController.Get (alintaApi)' 
+[2019-11-24 23:47:33.2421][DELL-PC][Info] The response could not be cached for this request. 
+[2019-11-24 23:47:33.2421][DELL-PC][Info] Request finished in 108.7477ms 200 application/json; charset=utf-8 
+[2019-11-24 23:48:04.9712][DELL-PC][Info] Request starting HTTP/1.1 PUT http://localhost:44333/api/Customers/60 application/json-patch+json 111 
+[2019-11-24 23:48:04.9776][DELL-PC][Info] Executing endpoint 'alintaApi.Controllers.CustomersController.Put (alintaApi)' 
+[2019-11-24 23:48:05.0809][DELL-PC][Info] Route matched with {action = "Put", controller = "Customers"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Put(Int32, alintaApi.Models.Customer) on controller alintaApi.Controllers.CustomersController (alintaApi). 
+[2019-11-24 23:48:05.1137][DELL-PC][Info] Executing action method alintaApi.Controllers.CustomersController.Put (alintaApi) - Validation state: Valid 
+[2019-11-24 23:48:05.1137][DELL-PC][Info] Entity Framework Core 2.2.6-servicing-10079 initialized 'CustomersDbContext' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=CustomersDB  
+[2019-11-24 23:48:05.1137][DELL-PC][Info] Saved 1 entities to in-memory store. 
+[2019-11-24 23:48:05.1137][DELL-PC][Info] Executed action method alintaApi.Controllers.CustomersController.Put (alintaApi), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 10.2849ms. 
+[2019-11-24 23:48:05.1137][DELL-PC][Info] Executing ObjectResult, writing value of type 'alintaApi.Models.Customer'. 
+[2019-11-24 23:48:05.1137][DELL-PC][Info] Executed action alintaApi.Controllers.CustomersController.Put (alintaApi) in 20.0621ms 
+[2019-11-24 23:48:05.1137][DELL-PC][Info] Executed endpoint 'alintaApi.Controllers.CustomersController.Put (alintaApi)' 
+[2019-11-24 23:48:05.1137][DELL-PC][Info] Request finished in 156.227ms 200 application/json; charset=utf-8 
+[2019-11-24 23:48:15.6077][DELL-PC][Info] Request starting HTTP/1.1 GET http://localhost:44333/api/Customers/60   
+[2019-11-24 23:48:15.6077][DELL-PC][Info] No cached response available for this request. 
+[2019-11-24 23:48:15.6077][DELL-PC][Info] Executing endpoint 'alintaApi.Controllers.CustomersController.Get (alintaApi)' 
+[2019-11-24 23:48:15.6077][DELL-PC][Info] Route matched with {action = "Get", controller = "Customers"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Get(Int32) on controller alintaApi.Controllers.CustomersController (alintaApi). 
+[2019-11-24 23:48:15.6077][DELL-PC][Info] Executing action method alintaApi.Controllers.CustomersController.Get (alintaApi) - Validation state: Valid 
+[2019-11-24 23:48:15.6077][DELL-PC][Info] Entity Framework Core 2.2.6-servicing-10079 initialized 'CustomersDbContext' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=CustomersDB  
+[2019-11-24 23:48:15.6158][DELL-PC][Info] Executed action method alintaApi.Controllers.CustomersController.Get (alintaApi), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 2.6464ms. 
+[2019-11-24 23:48:15.6931][DELL-PC][Info] Executing ObjectResult, writing value of type 'alintaApi.Models.Customer'. 
+[2019-11-24 23:48:15.6931][DELL-PC][Info] Executed action alintaApi.Controllers.CustomersController.Get (alintaApi) in 82.2721ms 
+[2019-11-24 23:48:15.6931][DELL-PC][Info] Executed endpoint 'alintaApi.Controllers.CustomersController.Get (alintaApi)' 
+[2019-11-24 23:48:15.6931][DELL-PC][Info] The response could not be cached for this request. 
+[2019-11-24 23:48:15.6931][DELL-PC][Info] Request finished in 89.2243ms 200 application/json; charset=utf-8 
+[2019-11-24 23:48:35.3690][DELL-PC][Info] Request starting HTTP/1.1 GET http://localhost:44333/api/Customers/SearchByName?firstName=dheeraj   
+[2019-11-24 23:48:35.3690][DELL-PC][Info] No cached response available for this request. 
+[2019-11-24 23:48:35.3690][DELL-PC][Info] Executing endpoint 'alintaApi.Controllers.CustomersController.SearchByName (alintaApi)' 
+[2019-11-24 23:48:35.4591][DELL-PC][Info] Route matched with {action = "SearchByName", controller = "Customers"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] SearchByName(System.String, System.String) on controller alintaApi.Controllers.CustomersController (alintaApi). 
+[2019-11-24 23:48:35.4883][DELL-PC][Info] Executing action method alintaApi.Controllers.CustomersController.SearchByName (alintaApi) - Validation state: Valid 
+[2019-11-24 23:48:35.4883][DELL-PC][Info] Entity Framework Core 2.2.6-servicing-10079 initialized 'CustomersDbContext' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=CustomersDB  
+[2019-11-24 23:48:35.5193][DELL-PC][Info] Executed action method alintaApi.Controllers.CustomersController.SearchByName (alintaApi), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 30.0887ms. 
+[2019-11-24 23:48:35.5228][DELL-PC][Info] Executing ObjectResult, writing value of type 'alintaApi.Models.Customer'. 
+[2019-11-24 23:48:35.5228][DELL-PC][Info] Executed action alintaApi.Controllers.CustomersController.SearchByName (alintaApi) in 39.8763ms 
+[2019-11-24 23:48:35.5228][DELL-PC][Info] Executed endpoint 'alintaApi.Controllers.CustomersController.SearchByName (alintaApi)' 
+[2019-11-24 23:48:35.5228][DELL-PC][Info] The response could not be cached for this request. 
+[2019-11-24 23:48:35.5228][DELL-PC][Info] Request finished in 158.1119ms 200 application/json; charset=utf-8 
+[2019-11-24 23:48:57.8040][DELL-PC][Info] Request starting HTTP/1.1 DELETE http://localhost:44333/api/Customers/60   
+[2019-11-24 23:48:57.8040][DELL-PC][Info] Executing endpoint 'alintaApi.Controllers.CustomersController.Delete (alintaApi)' 
+[2019-11-24 23:48:57.9017][DELL-PC][Info] Route matched with {action = "Delete", controller = "Customers"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Delete(Int32) on controller alintaApi.Controllers.CustomersController (alintaApi). 
+[2019-11-24 23:48:57.9196][DELL-PC][Info] Executing action method alintaApi.Controllers.CustomersController.Delete (alintaApi) - Validation state: Valid 
+[2019-11-24 23:48:57.9196][DELL-PC][Info] Entity Framework Core 2.2.6-servicing-10079 initialized 'CustomersDbContext' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=CustomersDB  
+[2019-11-24 23:48:57.9318][DELL-PC][Info] Saved 1 entities to in-memory store. 
+[2019-11-24 23:48:57.9318][DELL-PC][Info] Executed action method alintaApi.Controllers.CustomersController.Delete (alintaApi), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 15.6906ms. 
+[2019-11-24 23:48:57.9318][DELL-PC][Info] Executing ObjectResult, writing value of type 'System.String'. 
+[2019-11-24 23:48:57.9318][DELL-PC][Info] Executed action alintaApi.Controllers.CustomersController.Delete (alintaApi) in 18.8908ms 
+[2019-11-24 23:48:57.9318][DELL-PC][Info] Executed endpoint 'alintaApi.Controllers.CustomersController.Delete (alintaApi)' 
+[2019-11-24 23:48:57.9318][DELL-PC][Info] Request finished in 136.7168ms 200 application/json; charset=utf-8 
+[2019-11-24 23:49:08.6444][DELL-PC][Info] Request starting HTTP/1.1 GET http://localhost:44333/api/Customers/60   
+[2019-11-24 23:49:08.6455][DELL-PC][Info] No cached response available for this request. 
+[2019-11-24 23:49:08.6455][DELL-PC][Info] Executing endpoint 'alintaApi.Controllers.CustomersController.Get (alintaApi)' 
+[2019-11-24 23:49:08.6455][DELL-PC][Info] Route matched with {action = "Get", controller = "Customers"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Get(Int32) on controller alintaApi.Controllers.CustomersController (alintaApi). 
+[2019-11-24 23:49:08.6455][DELL-PC][Info] Executing action method alintaApi.Controllers.CustomersController.Get (alintaApi) - Validation state: Valid 
+[2019-11-24 23:49:08.6455][DELL-PC][Info] Entity Framework Core 2.2.6-servicing-10079 initialized 'CustomersDbContext' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=CustomersDB  
+[2019-11-24 23:49:08.6455][DELL-PC][Info] Executed action method alintaApi.Controllers.CustomersController.Get (alintaApi), returned result Microsoft.AspNetCore.Mvc.NotFoundObjectResult in 2.2316ms. 
+[2019-11-24 23:49:08.7500][DELL-PC][Info] Executing ObjectResult, writing value of type 'System.String'. 
+[2019-11-24 23:49:08.7500][DELL-PC][Info] Executed action alintaApi.Controllers.CustomersController.Get (alintaApi) in 103.2471ms 
+[2019-11-24 23:49:08.7560][DELL-PC][Info] Executed endpoint 'alintaApi.Controllers.CustomersController.Get (alintaApi)' 
+[2019-11-24 23:49:08.8180][DELL-PC][Info] The response could not be cached for this request. 
+[2019-11-24 23:49:08.8180][DELL-PC][Info] Request finished in 174.6396ms 404 application/json; charset=utf-8 

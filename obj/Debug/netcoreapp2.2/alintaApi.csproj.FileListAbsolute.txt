@@ -1,0 +1,17 @@
+D:\gitExt\alinta-api\alintaApi\alintaApi\obj\Debug\netcoreapp2.2\alintaApi.RazorAssemblyInfo.cache
+D:\gitExt\alinta-api\alintaApi\alintaApi\obj\Debug\netcoreapp2.2\alintaApi.RazorAssemblyInfo.cs
+D:\gitExt\alinta-api\alintaApi\alintaApi\obj\Debug\netcoreapp2.2\alintaApi.AssemblyInfoInputs.cache
+D:\gitExt\alinta-api\alintaApi\alintaApi\obj\Debug\netcoreapp2.2\alintaApi.AssemblyInfo.cs
+D:\gitExt\alinta-api\alintaApi\alintaApi\bin\Debug\netcoreapp2.2\appsettings.Development.json
+D:\gitExt\alinta-api\alintaApi\alintaApi\bin\Debug\netcoreapp2.2\appsettings.json
+D:\gitExt\alinta-api\alintaApi\alintaApi\bin\Debug\netcoreapp2.2\Properties\launchSettings.json
+D:\gitExt\alinta-api\alintaApi\alintaApi\bin\Debug\netcoreapp2.2\alintaApi.deps.json
+D:\gitExt\alinta-api\alintaApi\alintaApi\bin\Debug\netcoreapp2.2\alintaApi.runtimeconfig.json
+D:\gitExt\alinta-api\alintaApi\alintaApi\bin\Debug\netcoreapp2.2\alintaApi.runtimeconfig.dev.json
+D:\gitExt\alinta-api\alintaApi\alintaApi\bin\Debug\netcoreapp2.2\alintaApi.dll
+D:\gitExt\alinta-api\alintaApi\alintaApi\bin\Debug\netcoreapp2.2\alintaApi.pdb
+D:\gitExt\alinta-api\alintaApi\alintaApi\obj\Debug\netcoreapp2.2\alintaApi.RazorTargetAssemblyInfo.cache
+D:\gitExt\alinta-api\alintaApi\alintaApi\obj\Debug\netcoreapp2.2\alintaApi.dll
+D:\gitExt\alinta-api\alintaApi\alintaApi\obj\Debug\netcoreapp2.2\alintaApi.pdb
+D:\gitExt\alinta-api\alintaApi\alintaApi\bin\Debug\netcoreapp2.2\nlog.config
+D:\gitExt\alinta-api\alintaApi\alintaApi\obj\Debug\netcoreapp2.2\alintaApi.csprojAssemblyReference.cache

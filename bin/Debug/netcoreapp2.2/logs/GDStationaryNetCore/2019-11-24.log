@@ -1,0 +1,24 @@
+[2019-11-24 22:51:14.9481][DELL-PC][Info] Request starting HTTP/1.1 DEBUG http://localhost:60688/  0 
+[2019-11-24 22:51:14.9481][DELL-PC][Info] Request starting HTTP/1.1 GET http://localhost:44333/api/customers   
+[2019-11-24 22:51:15.1884][DELL-PC][Info] Request finished in 243.0872ms 200  
+[2019-11-24 22:51:15.2057][DELL-PC][Info] No cached response available for this request. 
+[2019-11-24 22:51:15.2670][DELL-PC][Info] Executing endpoint 'alintaApi.Controllers.CustomersController.GetAll (alintaApi)' 
+[2019-11-24 22:51:15.2934][DELL-PC][Info] Route matched with {action = "GetAll", controller = "Customers"}. Executing controller action with signature System.Linq.IQueryable`1[alintaApi.Models.Customer] GetAll() on controller alintaApi.Controllers.CustomersController (alintaApi). 
+[2019-11-24 22:51:15.3100][DELL-PC][Info] Executing action method alintaApi.Controllers.CustomersController.GetAll (alintaApi) - Validation state: Valid 
+[2019-11-24 22:51:25.9815][DELL-PC][Error]  for testing logs 
+[2019-11-24 22:51:37.1415][DELL-PC][Info] Executed action alintaApi.Controllers.CustomersController.GetAll (alintaApi) in 21834.0626ms 
+[2019-11-24 22:51:37.1470][DELL-PC][Info] Executed endpoint 'alintaApi.Controllers.CustomersController.GetAll (alintaApi)' 
+[2019-11-24 22:51:37.3027][DELL-PC][Error] An unhandled exception has occurred while executing the request.  for testing logs
+[2019-11-24 22:51:37.5358][DELL-PC][Info] Request finished in 22571.076ms 500 text/html; charset=utf-8 
+[2019-11-24 22:54:00.0105][DELL-PC][Info] Request starting HTTP/1.1 GET http://localhost:44333/api/customers   
+[2019-11-24 22:54:00.0105][DELL-PC][Info] Request starting HTTP/1.1 DEBUG http://localhost:60688/  0 
+[2019-11-24 22:54:00.1357][DELL-PC][Info] No cached response available for this request. 
+[2019-11-24 22:54:00.1604][DELL-PC][Info] Request finished in 186.3776ms 200  
+[2019-11-24 22:54:00.2194][DELL-PC][Info] Executing endpoint 'alintaApi.Controllers.CustomersController.GetAll (alintaApi)' 
+[2019-11-24 22:54:00.2568][DELL-PC][Info] Route matched with {action = "GetAll", controller = "Customers"}. Executing controller action with signature System.Linq.IQueryable`1[alintaApi.Models.Customer] GetAll() on controller alintaApi.Controllers.CustomersController (alintaApi). 
+[2019-11-24 22:54:00.2729][DELL-PC][Info] Executing action method alintaApi.Controllers.CustomersController.GetAll (alintaApi) - Validation state: Valid 
+[2019-11-24 22:54:03.9683][DELL-PC][Error]  for testing logs 
+[2019-11-24 22:54:06.8755][DELL-PC][Info] Executed action alintaApi.Controllers.CustomersController.GetAll (alintaApi) in 6611.4793ms 
+[2019-11-24 22:54:06.8805][DELL-PC][Info] Executed endpoint 'alintaApi.Controllers.CustomersController.GetAll (alintaApi)' 
+[2019-11-24 22:54:06.9402][DELL-PC][Error] An unhandled exception has occurred while executing the request.  for testing logs
+[2019-11-24 22:54:07.0612][DELL-PC][Info] Request finished in 7076.2241ms 500 text/html; charset=utf-8 
