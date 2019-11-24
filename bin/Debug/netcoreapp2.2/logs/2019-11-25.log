@@ -1,0 +1,228 @@
+[2019-11-25 07:03:40.3393][DELL-PC][Info] Entity Framework Core 2.2.6-servicing-10079 initialized 'CustomersDbContext' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=CustomersDB-3e2a8296-40f6-4b50-84e9-a385d49860b5  
+[2019-11-25 07:03:40.6313][DELL-PC][Info] Saved 4 entities to in-memory store. 
+[2019-11-25 07:03:40.9507][DELL-PC][Info] Request starting HTTP/1.1 GET http://localhost:44333/api/customers   
+[2019-11-25 07:03:40.9785][DELL-PC][Info] No cached response available for this request. 
+[2019-11-25 07:03:41.0266][DELL-PC][Info] Executing endpoint 'alintaApi.Controllers.CustomersController.GetAll (alintaApi)' 
+[2019-11-25 07:03:41.0408][DELL-PC][Info] Route matched with {action = "GetAll", controller = "Customers"}. Executing controller action with signature System.Linq.IQueryable`1[alintaApi.Models.Customer] GetAll() on controller alintaApi.Controllers.CustomersController (alintaApi). 
+[2019-11-25 07:03:41.0524][DELL-PC][Info] Executing action method alintaApi.Controllers.CustomersController.GetAll (alintaApi) - Validation state: Valid 
+[2019-11-25 07:03:41.0524][DELL-PC][Info] Executed action method alintaApi.Controllers.CustomersController.GetAll (alintaApi), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 0.5375ms. 
+[2019-11-25 07:03:41.0524][DELL-PC][Info] Executing ObjectResult, writing value of type 'Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1[[alintaApi.Models.Customer, alintaApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'. 
+[2019-11-25 07:03:41.1715][DELL-PC][Info] Executed action alintaApi.Controllers.CustomersController.GetAll (alintaApi) in 125.5852ms 
+[2019-11-25 07:03:41.1715][DELL-PC][Info] Executed endpoint 'alintaApi.Controllers.CustomersController.GetAll (alintaApi)' 
+[2019-11-25 07:03:41.1770][DELL-PC][Info] The response could not be cached for this request. 
+[2019-11-25 07:03:41.2025][DELL-PC][Info] Request finished in 251.8309ms 200 application/json; charset=utf-8 
+[2019-11-25 07:03:54.8790][DELL-PC][Info] Request starting HTTP/1.1 GET http://localhost:44333/swagger/index.html   
+[2019-11-25 07:03:54.8805][DELL-PC][Info] No cached response available for this request. 
+[2019-11-25 07:03:54.9522][DELL-PC][Info] The response could not be cached for this request. 
+[2019-11-25 07:03:54.9987][DELL-PC][Info] Request finished in 119.6503ms 200 text/html 
+[2019-11-25 07:03:55.7415][DELL-PC][Info] Request starting HTTP/1.1 GET http://localhost:44333/swagger/v1/swagger.json   
+[2019-11-25 07:03:55.7415][DELL-PC][Info] No cached response available for this request. 
+[2019-11-25 07:03:55.9969][DELL-PC][Info] The response could not be cached for this request. 
+[2019-11-25 07:03:55.9969][DELL-PC][Info] Request finished in 257.8769ms 200 application/json;charset=utf-8 
+[2019-11-25 07:04:09.6492][DELL-PC][Info] Request starting HTTP/1.1 GET http://localhost:44333/api/Customers   
+[2019-11-25 07:04:09.6492][DELL-PC][Info] No cached response available for this request. 
+[2019-11-25 07:04:09.6492][DELL-PC][Info] Executing endpoint 'alintaApi.Controllers.CustomersController.GetAll (alintaApi)' 
+[2019-11-25 07:04:09.6492][DELL-PC][Info] Route matched with {action = "GetAll", controller = "Customers"}. Executing controller action with signature System.Linq.IQueryable`1[alintaApi.Models.Customer] GetAll() on controller alintaApi.Controllers.CustomersController (alintaApi). 
+[2019-11-25 07:04:09.6492][DELL-PC][Info] Executing action method alintaApi.Controllers.CustomersController.GetAll (alintaApi) - Validation state: Valid 
+[2019-11-25 07:04:09.6492][DELL-PC][Info] Executed action method alintaApi.Controllers.CustomersController.GetAll (alintaApi), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 0.0752ms. 
+[2019-11-25 07:04:09.7003][DELL-PC][Info] Executing ObjectResult, writing value of type 'Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1[[alintaApi.Models.Customer, alintaApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'. 
+[2019-11-25 07:04:09.7003][DELL-PC][Info] Executed action alintaApi.Controllers.CustomersController.GetAll (alintaApi) in 48.7183ms 
+[2019-11-25 07:04:09.7003][DELL-PC][Info] Executed endpoint 'alintaApi.Controllers.CustomersController.GetAll (alintaApi)' 
+[2019-11-25 07:04:09.7003][DELL-PC][Info] The response could not be cached for this request. 
+[2019-11-25 07:04:09.7003][DELL-PC][Info] Request finished in 56.0453ms 200 application/json; charset=utf-8 
+[2019-11-25 07:05:28.2300][DELL-PC][Info] Request starting HTTP/1.1 POST http://localhost:44333/api/Customers application/json-patch+json 103 
+[2019-11-25 07:05:28.2300][DELL-PC][Info] Executing endpoint 'alintaApi.Controllers.CustomersController.Post (alintaApi)' 
+[2019-11-25 07:05:28.2996][DELL-PC][Info] Route matched with {action = "Post", controller = "Customers"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Post(alintaApi.Models.Customer) on controller alintaApi.Controllers.CustomersController (alintaApi). 
+[2019-11-25 07:05:28.3707][DELL-PC][Info] Executing action method alintaApi.Controllers.CustomersController.Post (alintaApi) - Validation state: Valid 
+[2019-11-25 07:05:28.3814][DELL-PC][Info] Saved 1 entities to in-memory store. 
+[2019-11-25 07:05:28.3814][DELL-PC][Info] Executed action method alintaApi.Controllers.CustomersController.Post (alintaApi), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 11.3243ms. 
+[2019-11-25 07:05:28.3814][DELL-PC][Info] Executing ObjectResult, writing value of type 'alintaApi.Models.Customer'. 
+[2019-11-25 07:05:28.3814][DELL-PC][Info] Executed action alintaApi.Controllers.CustomersController.Post (alintaApi) in 76.6425ms 
+[2019-11-25 07:05:28.3814][DELL-PC][Info] Executed endpoint 'alintaApi.Controllers.CustomersController.Post (alintaApi)' 
+[2019-11-25 07:05:28.3814][DELL-PC][Info] Request finished in 156.3655ms 200 application/json; charset=utf-8 
+[2019-11-25 07:05:40.6195][DELL-PC][Info] Request starting HTTP/1.1 GET http://localhost:44333/api/Customers/6   
+[2019-11-25 07:05:40.6195][DELL-PC][Info] No cached response available for this request. 
+[2019-11-25 07:05:40.6195][DELL-PC][Info] Executing endpoint 'alintaApi.Controllers.CustomersController.Get (alintaApi)' 
+[2019-11-25 07:05:40.6320][DELL-PC][Info] Route matched with {action = "Get", controller = "Customers"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Get(Int32) on controller alintaApi.Controllers.CustomersController (alintaApi). 
+[2019-11-25 07:05:40.6712][DELL-PC][Info] Executing action method alintaApi.Controllers.CustomersController.Get (alintaApi) - Validation state: Valid 
+[2019-11-25 07:05:40.6765][DELL-PC][Info] Executed action method alintaApi.Controllers.CustomersController.Get (alintaApi), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 4.3759ms. 
+[2019-11-25 07:05:40.7117][DELL-PC][Info] Executing ObjectResult, writing value of type 'alintaApi.Models.Customer'. 
+[2019-11-25 07:05:40.7117][DELL-PC][Info] Executed action alintaApi.Controllers.CustomersController.Get (alintaApi) in 44.3703ms 
+[2019-11-25 07:05:40.7117][DELL-PC][Info] Executed endpoint 'alintaApi.Controllers.CustomersController.Get (alintaApi)' 
+[2019-11-25 07:05:40.7117][DELL-PC][Info] The response could not be cached for this request. 
+[2019-11-25 07:05:40.7117][DELL-PC][Info] Request finished in 100.4337ms 200 application/json; charset=utf-8 
+[2019-11-25 07:06:20.1586][DELL-PC][Info] Request starting HTTP/1.1 PUT http://localhost:44333/api/Customers/6 application/json-patch+json 105 
+[2019-11-25 07:06:20.1586][DELL-PC][Info] Executing endpoint 'alintaApi.Controllers.CustomersController.Put (alintaApi)' 
+[2019-11-25 07:06:20.1664][DELL-PC][Info] Route matched with {action = "Put", controller = "Customers"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Put(Int32, alintaApi.Models.Customer) on controller alintaApi.Controllers.CustomersController (alintaApi). 
+[2019-11-25 07:06:20.2153][DELL-PC][Info] Executing action method alintaApi.Controllers.CustomersController.Put (alintaApi) - Validation state: Valid 
+[2019-11-25 07:06:20.2241][DELL-PC][Info] Saved 1 entities to in-memory store. 
+[2019-11-25 07:06:20.2875][DELL-PC][Info] Executed action method alintaApi.Controllers.CustomersController.Put (alintaApi), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 71.4914ms. 
+[2019-11-25 07:06:20.2875][DELL-PC][Info] Executing ObjectResult, writing value of type 'alintaApi.Models.Customer'. 
+[2019-11-25 07:06:20.2875][DELL-PC][Info] Executed action alintaApi.Controllers.CustomersController.Put (alintaApi) in 74.7186ms 
+[2019-11-25 07:06:20.2875][DELL-PC][Info] Executed endpoint 'alintaApi.Controllers.CustomersController.Put (alintaApi)' 
+[2019-11-25 07:06:20.2875][DELL-PC][Info] Request finished in 131.37ms 200 application/json; charset=utf-8 
+[2019-11-25 07:06:51.0040][DELL-PC][Info] Request starting HTTP/1.1 GET http://localhost:44333/api/Customers/SearchByName?firstName=amily   
+[2019-11-25 07:06:51.0052][DELL-PC][Info] No cached response available for this request. 
+[2019-11-25 07:06:51.0052][DELL-PC][Info] Executing endpoint 'alintaApi.Controllers.CustomersController.SearchByName (alintaApi)' 
+[2019-11-25 07:06:51.0052][DELL-PC][Info] Route matched with {action = "SearchByName", controller = "Customers"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] SearchByName(System.String, System.String) on controller alintaApi.Controllers.CustomersController (alintaApi). 
+[2019-11-25 07:06:51.0939][DELL-PC][Info] Executing action method alintaApi.Controllers.CustomersController.SearchByName (alintaApi) - Validation state: Valid 
+[2019-11-25 07:06:51.1699][DELL-PC][Error] Object reference not set to an instance of an object. 
+[2019-11-25 07:06:51.1699][DELL-PC][Info] Executed action alintaApi.Controllers.CustomersController.SearchByName (alintaApi) in 82.007ms 
+[2019-11-25 07:06:51.1699][DELL-PC][Info] Executed endpoint 'alintaApi.Controllers.CustomersController.SearchByName (alintaApi)' 
+[2019-11-25 07:06:51.1699][DELL-PC][Error] An unhandled exception has occurred while executing the request. Object reference not set to an instance of an object.
+[2019-11-25 07:06:51.5034][DELL-PC][Info] Request finished in 499.4443ms 500 text/html; charset=utf-8 
+[2019-11-25 07:07:10.1778][DELL-PC][Info] Request starting HTTP/1.1 GET http://localhost:44333/api/Customers/SearchByName?firstName=amily&lastName=johns   
+[2019-11-25 07:07:10.1778][DELL-PC][Info] No cached response available for this request. 
+[2019-11-25 07:07:10.1778][DELL-PC][Info] Executing endpoint 'alintaApi.Controllers.CustomersController.SearchByName (alintaApi)' 
+[2019-11-25 07:07:10.1778][DELL-PC][Info] Route matched with {action = "SearchByName", controller = "Customers"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] SearchByName(System.String, System.String) on controller alintaApi.Controllers.CustomersController (alintaApi). 
+[2019-11-25 07:07:10.1778][DELL-PC][Info] Executing action method alintaApi.Controllers.CustomersController.SearchByName (alintaApi) - Validation state: Valid 
+[2019-11-25 07:07:10.1778][DELL-PC][Error] Object reference not set to an instance of an object. 
+[2019-11-25 07:07:10.2615][DELL-PC][Info] Executed action alintaApi.Controllers.CustomersController.SearchByName (alintaApi) in 78.9735ms 
+[2019-11-25 07:07:10.2615][DELL-PC][Info] Executed endpoint 'alintaApi.Controllers.CustomersController.SearchByName (alintaApi)' 
+[2019-11-25 07:07:10.2615][DELL-PC][Error] An unhandled exception has occurred while executing the request. Object reference not set to an instance of an object.
+[2019-11-25 07:07:10.2752][DELL-PC][Info] Request finished in 97.3489ms 500 text/html; charset=utf-8 
+[2019-11-25 07:08:23.0721][DELL-PC][Info] Entity Framework Core 2.2.6-servicing-10079 initialized 'CustomersDbContext' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=CustomersDB-d649a74d-50aa-4811-9d2a-8462824576b1  
+[2019-11-25 07:08:26.1740][DELL-PC][Info] Saved 4 entities to in-memory store. 
+[2019-11-25 07:08:26.7985][DELL-PC][Info] Request starting HTTP/1.1 GET http://localhost:44333/api/customers   
+[2019-11-25 07:08:26.7985][DELL-PC][Info] Request starting HTTP/1.1 DEBUG http://localhost:60688/  0 
+[2019-11-25 07:08:26.8783][DELL-PC][Info] No cached response available for this request. 
+[2019-11-25 07:08:26.9039][DELL-PC][Info] Request finished in 105.9668ms 200  
+[2019-11-25 07:08:26.9619][DELL-PC][Info] Executing endpoint 'alintaApi.Controllers.CustomersController.GetAll (alintaApi)' 
+[2019-11-25 07:08:26.9981][DELL-PC][Info] Route matched with {action = "GetAll", controller = "Customers"}. Executing controller action with signature System.Linq.IQueryable`1[alintaApi.Models.Customer] GetAll() on controller alintaApi.Controllers.CustomersController (alintaApi). 
+[2019-11-25 07:08:27.0100][DELL-PC][Info] Executing action method alintaApi.Controllers.CustomersController.GetAll (alintaApi) - Validation state: Valid 
+[2019-11-25 07:08:30.2752][DELL-PC][Info] Executed action method alintaApi.Controllers.CustomersController.GetAll (alintaApi), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 3260.0348ms. 
+[2019-11-25 07:08:30.2876][DELL-PC][Info] Executing ObjectResult, writing value of type 'Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1[[alintaApi.Models.Customer, alintaApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'. 
+[2019-11-25 07:08:30.5024][DELL-PC][Info] Executed action alintaApi.Controllers.CustomersController.GetAll (alintaApi) in 3498.8141ms 
+[2019-11-25 07:08:30.5043][DELL-PC][Info] Executed endpoint 'alintaApi.Controllers.CustomersController.GetAll (alintaApi)' 
+[2019-11-25 07:08:30.5043][DELL-PC][Info] The response could not be cached for this request. 
+[2019-11-25 07:08:30.5043][DELL-PC][Info] Request finished in 3720.5949ms 200 application/json; charset=utf-8 
+[2019-11-25 07:08:43.5850][DELL-PC][Info] Request starting HTTP/1.1 GET http://localhost:44333/swagger/index.html   
+[2019-11-25 07:08:43.6458][DELL-PC][Info] No cached response available for this request. 
+[2019-11-25 07:08:43.7861][DELL-PC][Info] The response could not be cached for this request. 
+[2019-11-25 07:08:43.7861][DELL-PC][Info] Request finished in 202.1789ms 200 text/html 
+[2019-11-25 07:08:45.4843][DELL-PC][Info] Request starting HTTP/1.1 GET http://localhost:44333/swagger/v1/swagger.json   
+[2019-11-25 07:08:45.4843][DELL-PC][Info] No cached response available for this request. 
+[2019-11-25 07:08:45.7608][DELL-PC][Info] The response could not be cached for this request. 
+[2019-11-25 07:08:45.7608][DELL-PC][Info] Request finished in 277.6826ms 200 application/json;charset=utf-8 
+[2019-11-25 07:09:00.2881][DELL-PC][Info] Request starting HTTP/1.1 GET http://localhost:44333/api/Customers/SearchByName?firstName=alen   
+[2019-11-25 07:09:00.2881][DELL-PC][Info] No cached response available for this request. 
+[2019-11-25 07:09:00.2881][DELL-PC][Info] Executing endpoint 'alintaApi.Controllers.CustomersController.SearchByName (alintaApi)' 
+[2019-11-25 07:09:00.4196][DELL-PC][Info] Route matched with {action = "SearchByName", controller = "Customers"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] SearchByName(System.String, System.String) on controller alintaApi.Controllers.CustomersController (alintaApi). 
+[2019-11-25 07:09:00.4552][DELL-PC][Info] Executing action method alintaApi.Controllers.CustomersController.SearchByName (alintaApi) - Validation state: Valid 
+[2019-11-25 07:09:00.5631][DELL-PC][Error] Object reference not set to an instance of an object. 
+[2019-11-25 07:09:00.6001][DELL-PC][Info] Executed action alintaApi.Controllers.CustomersController.SearchByName (alintaApi) in 167.0233ms 
+[2019-11-25 07:09:00.6001][DELL-PC][Info] Executed endpoint 'alintaApi.Controllers.CustomersController.SearchByName (alintaApi)' 
+[2019-11-25 07:09:00.6001][DELL-PC][Error] An unhandled exception has occurred while executing the request. Object reference not set to an instance of an object.
+[2019-11-25 07:09:00.6737][DELL-PC][Info] Request finished in 385.8159ms 500 text/html; charset=utf-8 
+[2019-11-25 07:09:33.0886][DELL-PC][Info] Request starting HTTP/1.1 GET http://localhost:44333/api/Customers/SearchByName?firstName=alen   
+[2019-11-25 07:09:33.0991][DELL-PC][Info] No cached response available for this request. 
+[2019-11-25 07:09:33.1276][DELL-PC][Info] Executing endpoint 'alintaApi.Controllers.CustomersController.SearchByName (alintaApi)' 
+[2019-11-25 07:09:33.1329][DELL-PC][Info] Route matched with {action = "SearchByName", controller = "Customers"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] SearchByName(System.String, System.String) on controller alintaApi.Controllers.CustomersController (alintaApi). 
+[2019-11-25 07:09:33.1608][DELL-PC][Info] Executing action method alintaApi.Controllers.CustomersController.SearchByName (alintaApi) - Validation state: Valid 
+[2019-11-25 07:10:14.5770][DELL-PC][Error] Object reference not set to an instance of an object. 
+[2019-11-25 07:10:14.6227][DELL-PC][Info] Executed action alintaApi.Controllers.CustomersController.SearchByName (alintaApi) in 41464.5708ms 
+[2019-11-25 07:10:14.7711][DELL-PC][Info] Executed endpoint 'alintaApi.Controllers.CustomersController.SearchByName (alintaApi)' 
+[2019-11-25 07:10:14.8162][DELL-PC][Error] An unhandled exception has occurred while executing the request. Object reference not set to an instance of an object.
+[2019-11-25 07:10:14.8342][DELL-PC][Info] Request finished in 41745.6215ms 500 text/html; charset=utf-8 
+[2019-11-25 07:10:29.6599][DELL-PC][Info] Request starting HTTP/1.1 GET http://localhost:44333/api/Customers/SearchByName?firstName=alan   
+[2019-11-25 07:10:29.6620][DELL-PC][Info] No cached response available for this request. 
+[2019-11-25 07:10:29.6620][DELL-PC][Info] Executing endpoint 'alintaApi.Controllers.CustomersController.SearchByName (alintaApi)' 
+[2019-11-25 07:10:29.6620][DELL-PC][Info] Route matched with {action = "SearchByName", controller = "Customers"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] SearchByName(System.String, System.String) on controller alintaApi.Controllers.CustomersController (alintaApi). 
+[2019-11-25 07:10:29.6620][DELL-PC][Info] Executing action method alintaApi.Controllers.CustomersController.SearchByName (alintaApi) - Validation state: Valid 
+[2019-11-25 07:17:43.3020][DELL-PC][Info] Entity Framework Core 2.2.6-servicing-10079 initialized 'CustomersDbContext' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=CustomersDB-e419f954-8bc2-4032-ab72-64fd28c4ae3b  
+[2019-11-25 07:17:43.5272][DELL-PC][Info] Saved 4 entities to in-memory store. 
+[2019-11-25 07:17:43.8201][DELL-PC][Info] Request starting HTTP/1.1 GET http://localhost:44333/api/customers   
+[2019-11-25 07:17:43.8439][DELL-PC][Info] No cached response available for this request. 
+[2019-11-25 07:17:43.8819][DELL-PC][Info] Executing endpoint 'alintaApi.Controllers.CustomersController.GetAll (alintaApi)' 
+[2019-11-25 07:17:43.8959][DELL-PC][Info] Route matched with {action = "GetAll", controller = "Customers"}. Executing controller action with signature System.Linq.IQueryable`1[alintaApi.Models.Customer] GetAll() on controller alintaApi.Controllers.CustomersController (alintaApi). 
+[2019-11-25 07:17:43.8959][DELL-PC][Info] Executing action method alintaApi.Controllers.CustomersController.GetAll (alintaApi) - Validation state: Valid 
+[2019-11-25 07:17:43.9113][DELL-PC][Info] Executed action method alintaApi.Controllers.CustomersController.GetAll (alintaApi), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 0.5263ms. 
+[2019-11-25 07:17:43.9113][DELL-PC][Info] Executing ObjectResult, writing value of type 'Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1[[alintaApi.Models.Customer, alintaApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'. 
+[2019-11-25 07:17:44.0002][DELL-PC][Info] Executed action alintaApi.Controllers.CustomersController.GetAll (alintaApi) in 99.3082ms 
+[2019-11-25 07:17:44.0002][DELL-PC][Info] Executed endpoint 'alintaApi.Controllers.CustomersController.GetAll (alintaApi)' 
+[2019-11-25 07:17:44.0077][DELL-PC][Info] The response could not be cached for this request. 
+[2019-11-25 07:17:44.0077][DELL-PC][Info] Request finished in 195.664ms 200 application/json; charset=utf-8 
+[2019-11-25 07:17:47.8164][DELL-PC][Info] Request starting HTTP/1.1 GET http://localhost:44333/swagger/index.html   
+[2019-11-25 07:17:47.8228][DELL-PC][Info] No cached response available for this request. 
+[2019-11-25 07:17:47.9196][DELL-PC][Info] The response could not be cached for this request. 
+[2019-11-25 07:17:47.9196][DELL-PC][Info] Request finished in 104.3219ms 200 text/html 
+[2019-11-25 07:17:49.3687][DELL-PC][Info] Request starting HTTP/1.1 GET http://localhost:44333/swagger/v1/swagger.json   
+[2019-11-25 07:17:49.3687][DELL-PC][Info] No cached response available for this request. 
+[2019-11-25 07:17:49.6205][DELL-PC][Info] The response could not be cached for this request. 
+[2019-11-25 07:17:49.6205][DELL-PC][Info] Request finished in 252.7155ms 200 application/json;charset=utf-8 
+[2019-11-25 07:18:03.6994][DELL-PC][Info] Request starting HTTP/1.1 GET http://localhost:44333/api/Customers/SearchByName?firstName=alan   
+[2019-11-25 07:18:03.6994][DELL-PC][Info] No cached response available for this request. 
+[2019-11-25 07:18:03.6994][DELL-PC][Info] Executing endpoint 'alintaApi.Controllers.CustomersController.SearchByName (alintaApi)' 
+[2019-11-25 07:18:03.7378][DELL-PC][Info] Route matched with {action = "SearchByName", controller = "Customers"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] SearchByName(System.String, System.String) on controller alintaApi.Controllers.CustomersController (alintaApi). 
+[2019-11-25 07:18:03.7601][DELL-PC][Info] Executing action method alintaApi.Controllers.CustomersController.SearchByName (alintaApi) - Validation state: Valid 
+[2019-11-25 07:18:03.7963][DELL-PC][Info] Executed action method alintaApi.Controllers.CustomersController.SearchByName (alintaApi), returned result Microsoft.AspNetCore.Mvc.NotFoundObjectResult in 35.4595ms. 
+[2019-11-25 07:18:03.7963][DELL-PC][Info] Executing ObjectResult, writing value of type 'System.String'. 
+[2019-11-25 07:18:03.7963][DELL-PC][Info] Executed action alintaApi.Controllers.CustomersController.SearchByName (alintaApi) in 59.5149ms 
+[2019-11-25 07:18:03.7963][DELL-PC][Info] Executed endpoint 'alintaApi.Controllers.CustomersController.SearchByName (alintaApi)' 
+[2019-11-25 07:18:03.7963][DELL-PC][Info] The response could not be cached for this request. 
+[2019-11-25 07:18:03.8022][DELL-PC][Info] Request finished in 102.7643ms 404 application/json; charset=utf-8 
+[2019-11-25 07:18:16.9944][DELL-PC][Info] Request starting HTTP/1.1 GET http://localhost:44333/api/Customers   
+[2019-11-25 07:18:16.9944][DELL-PC][Info] No cached response available for this request. 
+[2019-11-25 07:18:16.9944][DELL-PC][Info] Executing endpoint 'alintaApi.Controllers.CustomersController.GetAll (alintaApi)' 
+[2019-11-25 07:18:16.9944][DELL-PC][Info] Route matched with {action = "GetAll", controller = "Customers"}. Executing controller action with signature System.Linq.IQueryable`1[alintaApi.Models.Customer] GetAll() on controller alintaApi.Controllers.CustomersController (alintaApi). 
+[2019-11-25 07:18:16.9944][DELL-PC][Info] Executing action method alintaApi.Controllers.CustomersController.GetAll (alintaApi) - Validation state: Valid 
+[2019-11-25 07:18:16.9944][DELL-PC][Info] Executed action method alintaApi.Controllers.CustomersController.GetAll (alintaApi), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 0.0454ms. 
+[2019-11-25 07:18:16.9944][DELL-PC][Info] Executing ObjectResult, writing value of type 'Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1[[alintaApi.Models.Customer, alintaApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'. 
+[2019-11-25 07:18:17.0056][DELL-PC][Info] Executed action alintaApi.Controllers.CustomersController.GetAll (alintaApi) in 6.8013ms 
+[2019-11-25 07:18:17.0056][DELL-PC][Info] Executed endpoint 'alintaApi.Controllers.CustomersController.GetAll (alintaApi)' 
+[2019-11-25 07:18:17.0056][DELL-PC][Info] The response could not be cached for this request. 
+[2019-11-25 07:18:17.0056][DELL-PC][Info] Request finished in 17.7819ms 200 application/json; charset=utf-8 
+[2019-11-25 07:18:28.4898][DELL-PC][Info] Request starting HTTP/1.1 GET http://localhost:44333/api/Customers/SearchByName?firstName=Alan   
+[2019-11-25 07:18:28.4898][DELL-PC][Info] No cached response available for this request. 
+[2019-11-25 07:18:28.4898][DELL-PC][Info] Executing endpoint 'alintaApi.Controllers.CustomersController.SearchByName (alintaApi)' 
+[2019-11-25 07:18:28.4898][DELL-PC][Info] Route matched with {action = "SearchByName", controller = "Customers"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] SearchByName(System.String, System.String) on controller alintaApi.Controllers.CustomersController (alintaApi). 
+[2019-11-25 07:18:28.4898][DELL-PC][Info] Executing action method alintaApi.Controllers.CustomersController.SearchByName (alintaApi) - Validation state: Valid 
+[2019-11-25 07:18:28.4898][DELL-PC][Info] Executed action method alintaApi.Controllers.CustomersController.SearchByName (alintaApi), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 1.5097ms. 
+[2019-11-25 07:18:28.4898][DELL-PC][Info] Executing ObjectResult, writing value of type 'alintaApi.Models.Customer'. 
+[2019-11-25 07:18:28.5054][DELL-PC][Info] Executed action alintaApi.Controllers.CustomersController.SearchByName (alintaApi) in 10.2884ms 
+[2019-11-25 07:18:28.5054][DELL-PC][Info] Executed endpoint 'alintaApi.Controllers.CustomersController.SearchByName (alintaApi)' 
+[2019-11-25 07:18:28.5054][DELL-PC][Info] The response could not be cached for this request. 
+[2019-11-25 07:18:28.5054][DELL-PC][Info] Request finished in 25.3379ms 200 application/json; charset=utf-8 
+[2019-11-25 07:18:55.0191][DELL-PC][Info] Request starting HTTP/1.1 GET http://localhost:44333/api/Customers/SearchByName?lastName=chen   
+[2019-11-25 07:18:55.0215][DELL-PC][Info] No cached response available for this request. 
+[2019-11-25 07:18:55.0215][DELL-PC][Info] Executing endpoint 'alintaApi.Controllers.CustomersController.SearchByName (alintaApi)' 
+[2019-11-25 07:18:55.0215][DELL-PC][Info] Route matched with {action = "SearchByName", controller = "Customers"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] SearchByName(System.String, System.String) on controller alintaApi.Controllers.CustomersController (alintaApi). 
+[2019-11-25 07:18:55.0215][DELL-PC][Info] Executing action method alintaApi.Controllers.CustomersController.SearchByName (alintaApi) - Validation state: Valid 
+[2019-11-25 07:18:55.0437][DELL-PC][Info] Executed action method alintaApi.Controllers.CustomersController.SearchByName (alintaApi), returned result Microsoft.AspNetCore.Mvc.NotFoundObjectResult in 9.8577ms. 
+[2019-11-25 07:18:55.0437][DELL-PC][Info] Executing ObjectResult, writing value of type 'System.String'. 
+[2019-11-25 07:18:55.0437][DELL-PC][Info] Executed action alintaApi.Controllers.CustomersController.SearchByName (alintaApi) in 17.5767ms 
+[2019-11-25 07:18:55.0437][DELL-PC][Info] Executed endpoint 'alintaApi.Controllers.CustomersController.SearchByName (alintaApi)' 
+[2019-11-25 07:18:55.0437][DELL-PC][Info] The response could not be cached for this request. 
+[2019-11-25 07:18:55.0519][DELL-PC][Info] Request finished in 32.7496ms 404 application/json; charset=utf-8 
+[2019-11-25 07:19:13.2300][DELL-PC][Info] Request starting HTTP/1.1 GET http://localhost:44333/api/Customers/SearchByName?lastName=Chen   
+[2019-11-25 07:19:13.2300][DELL-PC][Info] No cached response available for this request. 
+[2019-11-25 07:19:13.2300][DELL-PC][Info] Executing endpoint 'alintaApi.Controllers.CustomersController.SearchByName (alintaApi)' 
+[2019-11-25 07:19:13.2300][DELL-PC][Info] Route matched with {action = "SearchByName", controller = "Customers"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] SearchByName(System.String, System.String) on controller alintaApi.Controllers.CustomersController (alintaApi). 
+[2019-11-25 07:19:13.2300][DELL-PC][Info] Executing action method alintaApi.Controllers.CustomersController.SearchByName (alintaApi) - Validation state: Valid 
+[2019-11-25 07:19:13.2300][DELL-PC][Info] Executed action method alintaApi.Controllers.CustomersController.SearchByName (alintaApi), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 0.5402ms. 
+[2019-11-25 07:19:13.2300][DELL-PC][Info] Executing ObjectResult, writing value of type 'alintaApi.Models.Customer'. 
+[2019-11-25 07:19:13.2300][DELL-PC][Info] Executed action alintaApi.Controllers.CustomersController.SearchByName (alintaApi) in 4.1652ms 
+[2019-11-25 07:19:13.2397][DELL-PC][Info] Executed endpoint 'alintaApi.Controllers.CustomersController.SearchByName (alintaApi)' 
+[2019-11-25 07:19:13.2397][DELL-PC][Info] The response could not be cached for this request. 
+[2019-11-25 07:19:13.2397][DELL-PC][Info] Request finished in 13.6902ms 200 application/json; charset=utf-8 
+[2019-11-25 07:50:29.8569][DELL-PC][Info] Entity Framework Core 2.2.6-servicing-10079 initialized 'CustomersDbContext' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=CustomersDB-35bec919-0176-4c1b-b28a-2285ee6e4779  
+[2019-11-25 07:50:30.0990][DELL-PC][Info] Saved 4 entities to in-memory store. 
+[2019-11-25 07:50:30.2784][DELL-PC][Info] Request starting HTTP/1.1 GET http://localhost:44333/api/customers   
+[2019-11-25 07:50:30.3019][DELL-PC][Info] No cached response available for this request. 
+[2019-11-25 07:50:30.3407][DELL-PC][Info] Executing endpoint 'alintaApi.Controllers.CustomersController.GetAll (alintaApi)' 
+[2019-11-25 07:50:30.3538][DELL-PC][Info] Route matched with {action = "GetAll", controller = "Customers"}. Executing controller action with signature System.Linq.IQueryable`1[alintaApi.Models.Customer] GetAll() on controller alintaApi.Controllers.CustomersController (alintaApi). 
+[2019-11-25 07:50:30.3660][DELL-PC][Info] Executing action method alintaApi.Controllers.CustomersController.GetAll (alintaApi) - Validation state: Valid 
+[2019-11-25 07:50:30.3660][DELL-PC][Info] Executed action method alintaApi.Controllers.CustomersController.GetAll (alintaApi), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 0.5281ms. 
+[2019-11-25 07:50:30.3811][DELL-PC][Info] Executing ObjectResult, writing value of type 'Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1[[alintaApi.Models.Customer, alintaApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'. 
+[2019-11-25 07:50:30.4631][DELL-PC][Info] Executed action alintaApi.Controllers.CustomersController.GetAll (alintaApi) in 104.5824ms 
+[2019-11-25 07:50:30.4631][DELL-PC][Info] Executed endpoint 'alintaApi.Controllers.CustomersController.GetAll (alintaApi)' 
+[2019-11-25 07:50:30.4631][DELL-PC][Info] The response could not be cached for this request. 
+[2019-11-25 07:50:30.4770][DELL-PC][Info] Request finished in 198.8541ms 200 application/json; charset=utf-8 
+[2019-11-25 07:50:37.7987][DELL-PC][Info] Request starting HTTP/1.1 GET http://localhost:44333/swagger/index.html   
+[2019-11-25 07:50:37.8044][DELL-PC][Info] No cached response available for this request. 
+[2019-11-25 07:50:37.8880][DELL-PC][Info] The response could not be cached for this request. 
+[2019-11-25 07:50:37.8880][DELL-PC][Info] Request finished in 91.0254ms 200 text/html 
+[2019-11-25 07:50:38.2516][DELL-PC][Info] Request starting HTTP/1.1 GET http://localhost:44333/swagger/v1/swagger.json   
+[2019-11-25 07:50:38.2516][DELL-PC][Info] No cached response available for this request. 
+[2019-11-25 07:50:38.4982][DELL-PC][Info] The response could not be cached for this request. 
+[2019-11-25 07:50:38.4982][DELL-PC][Info] Request finished in 247.7932ms 200 application/json;charset=utf-8 

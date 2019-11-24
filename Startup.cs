@@ -8,6 +8,7 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Logging;
 using NLog.Web;
 using NLog.Extensions.Logging;
+using System;
 
 namespace alintaApi
 {
@@ -24,7 +25,7 @@ namespace alintaApi
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
-            services.AddDbContext<CustomersDbContext>(options => options.UseInMemoryDatabase(databaseName: "CustomersDB"));
+            services.AddDbContext<CustomersDbContext>(options => options.UseInMemoryDatabase("CustomersDB-" + Guid.NewGuid().ToString()), ServiceLifetime.Singleton);
             services.AddResponseCaching();
 
 

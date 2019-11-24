@@ -103,9 +103,13 @@ namespace alintaApi.Controllers
         {
             try
             {
-                var customers = await _customersDbContext.Customers.Where(c => c.firstName.Contains(firstName) && c.lastName.Contains(lastName)).FirstOrDefaultAsync();
+                Customer customers = null;
+                if(firstName!="")
+                 customers = await _customersDbContext.Customers.Where(x => x.firstName.Contains(firstName)).FirstOrDefaultAsync();
+                else if(lastName!="")
+                    customers = await _customersDbContext.Customers.Where(y => y.lastName.Contains(lastName)).FirstOrDefaultAsync();
 
-                if (customers==null && customers.firstName == "")
+                if (customers==null || customers.firstName == "")
                 {
                     return NotFound("No customers found with given search parameters...");
                 }
